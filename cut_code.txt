@@ -1,0 +1,47 @@
+# @app.route("/add", methods =["GET", "POST"])
+# def add():  
+ # if request.method == "POST":
+    #     new_movie = Movie(
+    #         title= request.form['title'],
+    #         year= request.form['year'],
+    #         rating= request.form['rating'],
+    #         ranking= request.form['ranking'],
+    #         review= request.form['review'],
+    #         description= request.form['description'],
+    #         img_url= request.form['url'])
+    #     db.session.add(new_movie)
+    #     db.session.commit()
+    #     return redirect( url_for('home'))
+
+add.html
+     <!-- <form action="{{ url_for('add') }}", method="POST">
+      <label>Movie name</label>
+      <input name="title" type="text">
+      <label>Year</label>
+      <input name="year" type="text">
+      <label>Rating</label>
+      <input name="rating" type="text">
+      <label>Ranking</label>
+      <input name="ranking" type="text">
+      <label>Review</label>
+      <input name="review" type="text">
+      <label>Description</label>
+      <input name="description" type="text">
+      <label> Url </label>
+      <input name="url" type="text">
+      <br>
+      <button type="submit">Add Movie</button>
+    </form> -->
+
+
+edit.html
+
+  <!-- <form action="{{ url_for('edit') }}" method="POST">
+      <h2>Movie name: {{ movie.title }}</h2>
+      <h3>Movie rating: Your rating Out of 10 </h3>
+      <input hidden="hidden" name="id" value="{{movie.id}}">
+      <input name="rating" type="text" placeholder="new rating">
+      <h3>Movie Review: Tell us your view on movies</h3>
+      <input name="review" type="text" placeholder="new review">
+      <button type="submit">Update movie</button>
+    </form> -->
